@@ -1,7 +1,7 @@
 var path = require('path');
 
 describe('Contacts', function() {
-	browser.get('http://localhost:8080');
+	browser.get('http://localhost:8000');
 	it('should add a contact', function() {
 		element(by.model('vm.name')).sendKeys('Gary');
 		element(by.model('vm.phoneNumber')).sendKeys('0782837819');
